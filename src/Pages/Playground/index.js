@@ -10,7 +10,7 @@ export default function Plalyground() {
     <>
       <div className={styles.title}>Text to Image</div>
       <div className={styles.subTitle}>
-        Easily create an image from scratch with out AI image generator by
+        Easily create an image from scratch with our AI image generator by
         enetring descriptive text.
       </div>
       <div className={styles.table}>
