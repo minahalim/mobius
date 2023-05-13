@@ -1,0 +1,41 @@
+.menuWrapper {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.menuWrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.innerMenu {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+}
+
+.menuItem {
+    font-size: 1em;
+    text-align: center;
+    padding: 15px;
+}
+
+.menuItem:hover {
+    background: #ffffff5e;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menuItem.logo {
+    font-size: 3em;
+    padding: 0;
+}
+
+.menuItem.logo:hover {
+    background: black;
+    padding: 0;
+}

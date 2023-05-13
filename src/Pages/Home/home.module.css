@@ -1,0 +1,82 @@
+.backgroundContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
+    filter: blur(2px);
+    position: absolute;
+    opacity: 0.4;
+    border-radius: 20px;
+    aspect-ratio: 1 / 1;
+}
+
+.img1 {
+    top: 35%;
+    left: -2%;
+    max-width: 15%;
+    max-height: 25%;
+    position: absolute;
+}
+
+.img2 {
+    top: -1%;
+    left: 25%;
+    max-width: 11%;
+    position: absolute;
+}
+
+.img3 {
+    bottom: 10%;
+    right: 5%;
+    max-width: 11%;
+    position: absolute;
+}
+
+.img4 {
+    top: 10%;
+    left: 60%;
+    max-width: 11%;
+    position: absolute;
+}
+
+.img5 {
+    top: 20%;
+    right: 0;
+    max-width: 15%;
+    max-height: 25%;
+    position: absolute;
+}
+
+.img6 {
+    bottom: 8%;
+    left: 15%;
+    max-width: 11%;
+    position: absolute;
+}
+
+.img7 {
+    bottom: 15%;
+    right: 30%;
+    max-width: 15%;
+    max-height: 25%;
+    position: absolute;
+}
+
+.content {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30vh;
+    z-index: 1;
+    position: relative;
+}

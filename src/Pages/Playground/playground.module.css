@@ -1,0 +1,110 @@
+.title {
+  font-size: 24px;
+  line-height: 32px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 6px;
+}
+
+.subTitle {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(160, 174, 192);
+  margin-bottom: 24px;
+}
+
+.table {
+  grid-template-columns: auto 276px;
+  grid-template-rows: 1fr;
+  gap: 16px;
+  box-sizing: border-box;
+  max-height: 100%;
+  min-height: 0px;
+  display: grid;
+}
+
+.wrapper {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  padding: 0px;
+  background-color: transparent;
+  overflow: auto;
+  box-sizing: border-box;
+  display: grid;
+  gap: 14px;
+  vertical-align: baseline;
+}
+
+.big {
+  grid-area: auto / auto / span 2 / span 2;
+}
+
+.rest {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.pic {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.promptWrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(18, 17, 17);
+  border: 1px solid rgba(110, 94, 132, 0.35);
+  border-radius: 4px;
+  min-height: fit-content;
+  border-radius: 6px;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  padding: 16px 16px;
+}
+
+.promptLabel {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+
+.textArea {
+  box-sizing: border-box;
+  background-color: rgb(29, 30, 35);
+  padding: 10px;
+  border: 1px solid rgba(110, 94, 132, 0.35);
+  color: rgb(169, 184, 255);
+  resize: none;
+  height: 100px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 8px;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.generateButton {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 6px;
+  width: 100%;
+  min-height: 36px;
+  border: none;
+  font-size: 14px;
+  background: rgb(29, 30, 35);
+  color: rgb(124, 131, 156);
+  cursor: not-allowed;
+}
